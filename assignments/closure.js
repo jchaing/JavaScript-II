@@ -1,6 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const man = () => {
+  let theMan = 'You the man!';
+  return () => theMan;
+};
+
+const whosTheMan = man();
+console.log(whosTheMan());
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 // ==== Challenge 2: Create a counter function ====
